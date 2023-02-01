@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #eae9d3;
+    
+}
+#header{
+    background-image: url(./image/banner\ cox.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.navbar{
+    font-family: 'Raleway', sans-serif;
+   color: white;
+    font-size: 20px;
+}
+
+.nav_list li{
+    list-style-type: none;
+    display: inline;
+    margin-left: 5%;
+    padding-top: 20px;
+   
+}
+
+.nav_list li:nth-child(6){
+    float: right;
+    margin-right: 2%;
+  
+}
+
+.banner_section{
+    margin-top: 90px;
+}
+
+.motive_one{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+    color: black;
+    margin-left: 5%;
+}
+.motive_two{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    color: black;
+    font-style: italic;
+    margin-left: 5%;
+    margin-top: 10px;
+}
+.trip_schedule{
+    margin-top: 80px;
+}
+.button{
+    background-color: yellow;
+    font-size: 30px;
+    border: 4px dotted black;
+    text-transform: uppercase;
+    margin-left: 5%;
+  
+    font-weight: bold;
+    padding: 13px 20px 13px 20px;
+    float: left;
+}
+.button:hover{
+    cursor: pointer;
+}
+.trip_schedule p{
+    width: 250px;
+    color: black;
+    font-size: 20px;
+    float:right;
+    padding: 10px 20px 10px 20px ;
+    border: 2px solid black;
+    text-transform: uppercase;
+    margin-right: 60%;
+}
+.summary{
+    margin-top: 200px;
+    margin-left: 5%;
+}
+.summery_heading{
+    color: green;
+    margin-top: 50px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    width: 50%;
+}
+.summary p{
+    color: rgb(6, 7, 6);
+    margin-top: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    width: 50%;
+    text-transform: uppercase;
+}
